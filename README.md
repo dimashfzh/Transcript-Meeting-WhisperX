@@ -12,7 +12,13 @@ Proyek ini menggunakan [WhisperX](https://github.com/m-bain/whisperx) untuk mela
 ## Instalasi
 
 ```bash
-pip install whisperx python-docx pyannote.audio
+!pip install -q git+https://github.com/m-bain/whisperx.git -q
+```
+```bash
+!pip3 install -U huggingface_hub -q
+```
+```bash
+!apt-get install libcudnn8
 ```
 
 ## Contoh Output
