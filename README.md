@@ -13,3 +13,9 @@ Proyek ini menggunakan [WhisperX](https://github.com/m-bain/whisperx) untuk mela
 
 ```bash
 pip install whisperx python-docx pyannote.audio
+```
+
+## Contoh Output
+```bash
+[00:45:00 – 00:45:23] SPEAKER 00: Selamat pagi semua, terima kasih sudah hadir.
+```
