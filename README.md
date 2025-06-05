@@ -1,2 +1,2 @@
-# Transcript-Meeting-WhisperX
-Transcript recorded meeting with WhisperX and Pyannote
+# Transcript-Meeting-WhisperX (Indonesia)
+Transcript recorded meeting with WhisperX and Pyannote in Bahasa or Indonesian Language
