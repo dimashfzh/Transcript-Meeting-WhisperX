@@ -1,15 +1,14 @@
 # Transcript-Meeting-WhisperX (Indonesia)
-## Transcript recorded meeting with WhisperX and Pyannote in Bahasa or Indonesian Language
+Transcript recorded meeting with WhisperX and Pyannote in Bahasa/Indonesian Language
 
-Proyek ini menggunakan [WhisperX](https://github.com/m-bain/whisperx) untuk melakukan transkripsi dan diarization (pemisahan pembicara) pada rekaman FGD.
+This Project use [WhisperX](https://github.com/m-bain/whisperx) to do audio transcript and speaker diarization on a recorded meeting audio.
+## Folder Structure
 
-## Struktur Folder
+- `Transcript-Meeting-WhisperX.ipynb`: Main Colab Notebook
+- `hasil_transkripsi.json`: File transcript by WhisperX
+- `requirements.txt`: Library used
 
-- `Transcript-Meeting-WhisperX.ipynb`: Notebook Colab utama
-- `hasil_transkripsi.json`: File hasil transkrip WhisperX
-- `requirements.txt`: Library yang digunakan
-
-## Instalasi
+## Instalation
 
 ```bash
 !pip install -q git+https://github.com/m-bain/whisperx.git -q
@@ -21,7 +20,7 @@ Proyek ini menggunakan [WhisperX](https://github.com/m-bain/whisperx) untuk mela
 !apt-get install libcudnn8
 ```
 
-## Contoh Output
+## Output Example
 ```bash
 [00:45:00 – 00:45:23] SPEAKER 00: Selamat pagi semua, terima kasih sudah hadir.
 ```
